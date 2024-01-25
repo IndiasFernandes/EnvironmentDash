@@ -42,8 +42,8 @@ npm start
 ## Images
 
 ![Device Photo](/media/dashboard.png)
-![Dashboard Photo](url-to-dashboard-photo)
-![Settings Photo](url-to-settings-photo)
+![Dashboard Photo](/media/dashboard.png)
+![Settings Photo](/media/settings.png)
 
 ## Contribuiting
 
