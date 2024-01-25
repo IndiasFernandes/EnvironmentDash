@@ -1,0 +1,89 @@
+/* App.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a modern and clean font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* Set a white background color */
+}
+
+/* Center-align the entire app */
+.App {
+  text-align: center;
+  padding: 20px; /* Add padding to the entire app for spacing */
+}
+
+/* Style for page titles */
+.page-title {
+  margin-top: 20px; /* Add margin to the top for spacing */
+  font-size: 30px; /* Increase the font size */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px; /* Add more spacing below the title */
+  color: #000; /* Set title text color to black */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+  letter-spacing: 2px; /* Increase letter spacing */
+  line-height: 1.2; /* Adjust line height for better readability */
+  text-align: center; /* Center-align the title */
+  background-color: #fff; /* Set a white background color */
+  padding: 10px 0; /* Add padding for spacing */
+  border-radius: 5px; /* Add a rounded border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow for depth */
+}
+
+/* Customize links for a clean look */
+a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add spacing and style for containers */
+.Container {
+  padding: 20px;
+  background-color: #fff; /* Set a white background color for containers */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Center-align text within containers */
+.Container p {
+  text-align: center;
+}
+
+/* Style for buttons */
+.button {
+  background-color: #000000; /* Blue button background color */
+  color: #fff; /* White button text color */
+  padding: 10px 20px; /* Add padding to buttons for spacing */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #000000; /* Darker blue on hover */
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust font size and spacing for smaller screens */
+  .page-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .Container {
+    padding: 15px;
+  }
+}
